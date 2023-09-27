@@ -20,9 +20,10 @@ COPY rest.conf /etc/apache2/sites-enabled/000-default.conf
 COPY app/public/ .
 COPY app/src/ .
 COPY .env .
-COPY var .
-COPY vendor .
 COPY tests .
+COPY / .
+
+RUN composer dump-autoload
 
 # Expose port 80 for Apache
 EXPOSE 80
