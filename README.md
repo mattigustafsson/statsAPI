@@ -9,6 +9,6 @@ To run the not functioning test, access the docker container either by docker de
 2. phpunit myTest.php
 
 accessing the container by terminal use this command:
-"sudo docker exec -i -t quickbutikkodtest-stats-api-1 sh"
+"sudo docker exec -i -t stats-api-1 sh"
 
 // Mattias
