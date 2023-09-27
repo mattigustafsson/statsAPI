@@ -1,3 +1,5 @@
+Don't forget to create a .env file from the example and set the api-key value.
+
 To run the container enter "docker-compose up --build"
 Then using postman/Insomnia access the two endpoints "/averageOrderValue" and /topThreeProducts.
 There is no authentication on the request.
