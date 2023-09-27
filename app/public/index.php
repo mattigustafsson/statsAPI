@@ -1,5 +1,4 @@
 <?php
-require_once __DIR__ . '/autoload.php';
 include ('./Controller/ApiController.php');
 
 use App\Controller\ApiController;
