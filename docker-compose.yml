@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  stats-api:
+    build: .
+    ports:
+      - "${PORT}:80"
+    env_file: .env
